@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #010101;
   color: #fff;
   overflow-x: hidden;
 }
@@ -15,6 +15,10 @@ body {
 
 h1 {
   font-size: 5rem;
+}
+
+h5{
+  color: #f00;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -116,7 +120,7 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: rgb(255, 0, 0);
   color: #fff;
   border: none;
   font-weight: bold;
